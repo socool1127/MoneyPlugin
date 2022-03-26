@@ -1,0 +1,10 @@
+name: MoneyPlugin
+version: '1.0.2'
+main: money.moneyplugin.MoneyPlugin
+api-version: 1.18
+commands:
+  돈:
+    aliases:
+      - ehs
+    description: 돈을 확인, 설정, 송금 할수 있는 코드입니다.
+    usage: /돈 [확인|설정|송금] [-대상] [-금액]
